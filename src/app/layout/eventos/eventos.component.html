@@ -1,0 +1,193 @@
+<div class="container">
+  <div class="titulo">
+    <h1>Cronograma</h1>
+  </div>
+  <div class="cronograma">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+      <!--- Note that these columns can be defined in any order.
+                  The actual rendered columns are set as a property on the row definition" -->
+
+      <!-- Position Column -->
+      <ng-container matColumnDef="dia">
+        <th mat-header-cell *matHeaderCellDef>Dia</th>
+        <td mat-cell *matCellDef="let element">{{ element.dia }}</td>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="hora">
+        <th mat-header-cell *matHeaderCellDef>Horario</th>
+        <td mat-cell *matCellDef="let element">{{ element.hora }}</td>
+      </ng-container>
+
+      <!-- Weight Column -->
+      <ng-container matColumnDef="actividad">
+        <th mat-header-cell *matHeaderCellDef>Actividad</th>
+        <td mat-cell *matCellDef="let element">{{ element.actividad }}</td>
+      </ng-container>
+
+      <!-- Symbol Column -->
+      <ng-container matColumnDef="ingreso">
+        <th mat-header-cell *matHeaderCellDef>Ingreso</th>
+        <td mat-cell *matCellDef="let element">{{ element.ingreso }}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+  </div>
+
+  <div class="contenedor">
+    <div class="row center-xs">
+      <div class="col-12">
+        <div class="box">
+          <h1>Para expositores</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="expositores">
+      <img
+        src="https://i.ytimg.com/vi/8XyFDAqpMOw/maxresdefault.jpg"
+      />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolorum,
+        necessitatibus eveniet corrupti aliquam minus recusandae, ut quisquam
+        aut temporibus nesciunt? Voluptatem iusto laborum tempore minus repellat
+        accusantium quo voluptatibus veniam amet asperiores aspernatur dicta
+        nulla, perferendis officia illum temporibus perspiciatis est quod
+        impedit rem laudantium beatae in nobis! Id veniam suscipit quisquam
+        saepe eos amet dolore eaque assumenda quae, numquam asperiores officiis
+        at repellendus. Quos deleniti quaerat velit doloribus voluptate cum
+        temporibus sunt repellendus tenetur, veritatis ratione, reprehenderit
+        eaque, veniam alias consectetur. Impedit molestias vitae incidunt!
+        Cupiditate voluptas, id, repudiandae, voluptatibus eaque fuga magnam
+        praesentium dolorem ab quod obcaecati.
+      </p>
+    </div>
+  </div>
+
+  <div class="contenedor1">
+    <div class="row center-xs">
+      <div class="col-12">
+        <div class="box">
+          <h1>La magia de la perla</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="la-perla">
+
+
+
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="box" >
+            <img id="perla"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNO6Xq0Q2VoxDncMCY4sjiLSTiUYg_QxP5jA&usqp=CAU"
+            />
+          </div>
+        </div>
+
+        <div class="col-xs-6">
+          <div class="box">
+            <p style="margin-left: 14%;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              dolorum, necessitatibus eveniet corrupti aliquam minus recusandae,
+              ut quisquam aut temporibus nesciunt? Voluptatem iusto laborum
+              tempore minus repellat accusantium quo voluptatibus veniam amet
+              asperiores aspernatur dicta nulla, perferendis officia illum
+              temporibus perspiciatis est quod impedit rem laudantium beatae in
+              nobis! Id veniam suscipit quisq
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="box" >
+            <img id="perla"
+              src="https://i.ytimg.com/vi/8XyFDAqpMOw/maxresdefault.jpg"
+            />
+          </div>
+        </div>
+
+        <div class="col-xs-6">
+          <div class="box">
+            <p style="margin-left: 14%;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              dolorum, necessitatibus eveniet corrupti aliquam minus recusandae,
+              ut quisquam aut temporibus nesciunt? Voluptatem iusto laborum
+              tempore minus repellat accusantium quo voluptatibus veniam amet
+              asperiores aspernatur dicta nulla, perferendis officia illum
+              temporibus perspiciatis est quod impedit rem laudantium beatae in
+              nobis! Id veniam suscipit quisq
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="box" >
+            <img id="perla"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNO6Xq0Q2VoxDncMCY4sjiLSTiUYg_QxP5jA&usqp=CAU"
+            />
+          </div>
+        </div>
+
+        <div class="col-xs-6">
+          <div class="box">
+            <p style="margin-left: 14%;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              dolorum, necessitatibus eveniet corrupti aliquam minus recusandae,
+              ut quisquam aut temporibus nesciunt? Voluptatem iusto laborum
+              tempore minus repellat accusantium quo voluptatibus veniam amet
+              asperiores aspernatur dicta nulla, perferendis officia illum
+              temporibus perspiciatis est quod impedit rem laudantium beatae in
+              nobis! Id veniam suscipit quisq
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="box" >
+            <img id="perla"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNO6Xq0Q2VoxDncMCY4sjiLSTiUYg_QxP5jA&usqp=CAU"
+            />
+          </div>
+        </div>
+
+        <div class="col-xs-6">
+          <div class="box">
+            <p  id="tex">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              dolorum, necessitatibus eveniet corrupti aliquam minus recusandae,
+              ut quisquam aut temporibus nesciunt? Voluptatem iusto laborum
+              tempore minus repellat accusantium quo voluptatibus veniam amet
+              asperiores aspernatur dicta nulla, perferendis officia illum
+              temporibus perspiciatis est quod impedit rem laudantium beatae in
+              nobis! Id veniam suscipit quisq
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+</div>

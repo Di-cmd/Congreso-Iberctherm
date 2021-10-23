@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    margin-top:70px;
+
+}
+.container img{
+    width: 64%;
+    height: 200px;
+ 
+       
+}
+
+.contenedorimg{
+    margin: 50px;
+   text-align:center;
+  
+}
+
+.card{
+    width: 30%;
+    height: 30%;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.card mat-card-content{
+    text-align: justify;
+}
+
+.tematica{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin: 2%;
+    margin-left: 5%;
+}
+
+.conte{
+    position: relative;
+   
+}
