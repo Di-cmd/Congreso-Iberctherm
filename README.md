@@ -5,5 +5,5 @@ This web site is developetment with [Angular CLI](https://github.com/angular/ang
 > and comming soon in www.gimm-gef.co
 
 Design with love 💙 by &copy;Daga Company
-- Diana Catalina Salazar Guevar - Frontend Developer
+- Diana Catalina Salazar Guevara - Frontend Developer
 - Daniel Patiño Vargas - Backend Developer
