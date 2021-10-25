@@ -1,33 +1,30 @@
-.container{
+.container {
     width: 100%;
-    margin-top:70px;
-
+    margin-top: 70px;
 }
-.container img{
+
+.container img {
     width: 64%;
     height: 200px;
- 
-       
 }
 
-.contenedorimg{
+.contenedorimg {
     margin: 50px;
-   text-align:center;
-  
+    text-align: center;
 }
 
-.card{
+.card {
     width: 30%;
     height: 30%;
     margin-left: 1%;
     margin-top: 3%;
 }
 
-.card mat-card-content{
+.card mat-card-content {
     text-align: justify;
 }
 
-.tematica{
+.tematica {
     width: 40%;
     height: 50%;
     float: left;
@@ -35,7 +32,10 @@
     margin-left: 5%;
 }
 
-.conte{
+.conte {
     position: relative;
-   
+}
+
+.comite-nacional {
+    margin: 2px;
 }
