@@ -5,22 +5,20 @@ import { LayoutModule } from '../layout/layout.module';
 
 const routes: Routes = [
   {
-    path:'',
-    component:LayoutComponent,
-
+    path: '',
+    component: LayoutComponent,
     children: [
       {
-        
-          path:'',
-          loadChildren: () => import('../layout/layout.module').then(m => m.LayoutModule) 
-      }
-    ]
+        path: '',
+        loadChildren: () =>
+          import('../layout/layout.module').then((m) => m.LayoutModule),
+      },
+    ],
   },
-  
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class SharedRoutingModule { }
+export class SharedRoutingModule {}

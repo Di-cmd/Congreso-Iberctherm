@@ -12,8 +12,6 @@ import { IngresoComponent } from './ingreso/ingreso.component';
 import { RegistroComponent } from './registro/registro.component';
 import { SwiperModule } from 'swiper/angular';
 
-
-
 // Importo un modelo:
 
 @NgModule({
@@ -26,12 +24,6 @@ import { SwiperModule } from 'swiper/angular';
     IngresoComponent,
     RegistroComponent,
   ],
-  imports: [
-    CommonModule,
-    LayoutRoutingModule,
-    MaterialsModule,
-    SwiperModule
-    
-  ]
+  imports: [CommonModule, LayoutRoutingModule, MaterialsModule, SwiperModule],
 })
-export class LayoutModule { }
+export class LayoutModule {}
