@@ -1,6 +1,7 @@
 .container {
-  width: 100%;
+  width: 98%;
   height: 100%;
+  align-content: space-around;
 }
 
 .container h1 {
@@ -15,12 +16,15 @@
 .container p {
   font-size: 18px;
   margin: 5%;
+  line-height: normal;
   padding: auto;
   text-align: justify;
 }
 
 .container-logos {
   text-align: center;
+  align-items: baseline;
+  justify-content: baseline;
 }
 
 .container-comite h1{
@@ -31,12 +35,23 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card h4{
+  text-align: justify;
 }
 
 .card>mat-card {
   width: 28%;
-  margin: 1%;
-  box-shadow: 0px 0px 5px 1px black;
+  margin: 1%; 
+  padding: 1%;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  border-top: solid rgba(255, 0, 0, 0.644);
+  border-bottom: solid rgba(0, 0, 0, 0.623);
+  /*box-shadow: 0px 0px 5px 1px black;*/
 }
 
 /*imagen cuadreada centrada*/

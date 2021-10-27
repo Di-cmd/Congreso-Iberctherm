@@ -78,8 +78,7 @@ export class HomeComponent implements OnInit {
     {
       name: '',
       image: '',
-      descripcion:
-        ' ',
+      descripcion: '',
       institucion: '',
       contacto: '',
     },
