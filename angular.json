@@ -34,10 +34,6 @@
               "src/styles.css",
               "./node_modules/flexboxgrid/dist/flexboxgrid.min.css",
               "swiper/css/bundle"
-            
-            
-          
-              
             ],
             "scripts": []
           },
@@ -109,6 +105,10 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }

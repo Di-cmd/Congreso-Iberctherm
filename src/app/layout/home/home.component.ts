@@ -114,8 +114,6 @@ export class HomeComponent implements OnInit {
     
   ];
 
-
-
   Tematicas: any[] = [
     {
       name: 'Materiales',

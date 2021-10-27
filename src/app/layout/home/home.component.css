@@ -16,8 +16,8 @@
 .card {
     width: 30%;
     height: 30%;
-    margin-left: 1%;
-    margin-top: 3%;
+    margin: 1%;
+    box-shadow: 27px 27px 20gpx -9px rgba(0,0,0,0.75);
 }
 
 .card mat-card-content {
