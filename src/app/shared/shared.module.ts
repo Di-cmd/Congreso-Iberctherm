@@ -1,31 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { SharedRoutingModule } from './shared-routing.module';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { LayoutComponent } from './layout/layout.component';
-
-
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
+//Components compartidos
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 //Importo el angular materials
 import { MaterialsModule } from '../materials/materials.module';
-import { SwiperModule } from 'swiper/angular';
+
 
 @NgModule({
-  declarations: [
+  declarations: [ 
     HeaderComponent,
     FooterComponent,
-    LayoutComponent,
-    
-  
   ],
   imports: [
     CommonModule,
-    SharedRoutingModule,
+    RouterModule,
     MaterialsModule,
-    SwiperModule
-   
-  
+    ReactiveFormsModule
+  ],
+  exports:[
+    HeaderComponent,
+    FooterComponent,
   ]
 })
 export class SharedModule {

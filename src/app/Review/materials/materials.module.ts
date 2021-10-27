@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { MaterialsRoutingModule } from './materials-routing.module';
+
 // Aqui se importan todos los elementos de angular materials 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
@@ -17,6 +19,7 @@ import { SwiperModule } from 'swiper/angular';
   declarations: [],
   imports: [
     CommonModule,
+    MaterialsRoutingModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
