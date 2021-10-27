@@ -27,7 +27,7 @@
   justify-content: baseline;
 }
 
-.container-comite h1{
+.container-comite h1 {
   margin-top: 30px;
 }
 
@@ -38,13 +38,13 @@
   justify-content: space-evenly;
 }
 
-.card h4{
+.card h4 {
   text-align: justify;
 }
 
-.card>mat-card {
+.card > mat-card {
   width: 28%;
-  margin: 1%; 
+  margin: 1%;
   padding: 1%;
   margin-top: 3%;
   flex-wrap: wrap;
@@ -65,7 +65,7 @@
   position: relative;
 }
 
-.card-img>img {
+.card-img > img {
   position: absolute;
   left: -100%;
   right: -100%;
@@ -87,7 +87,7 @@
   text-align: center;
 }
 
-.container-topic>h1 {
+.container-topic > h1 {
   font-size: 45px;
   font-weight: bolder;
   padding: 1%;

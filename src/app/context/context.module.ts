@@ -8,10 +8,8 @@ import { PagosComponent } from './components/pagos/pagos.component';
 import { AutoresComponent } from './components/autores/autores.component';
 import { IngresoComponent } from './components/ingreso/ingreso.component';
 import { RegistroComponent } from './components/registro/registro.component';
-import { PreinscripcionComponent } from './components/preinscripcion/preinscripcion.component';
 import { PreInscripcionComponent } from './components/pre-inscripcion/pre-inscripcion.component';
 import { MaterialsModule } from '../materials/materials.module';
-
 
 @NgModule({
   declarations: [
@@ -21,13 +19,8 @@ import { MaterialsModule } from '../materials/materials.module';
     AutoresComponent,
     IngresoComponent,
     RegistroComponent,
-    PreinscripcionComponent,
-    PreInscripcionComponent
+    PreInscripcionComponent,
   ],
-  imports: [
-    CommonModule,
-    ContextRoutingModule,
-    MaterialsModule
-  ]
+  imports: [CommonModule, ContextRoutingModule, MaterialsModule],
 })
-export class ContextModule { }
+export class ContextModule {}

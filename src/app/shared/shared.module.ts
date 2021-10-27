@@ -8,23 +8,9 @@ import { FooterComponent } from './components/footer/footer.component';
 //Importo el angular materials
 import { MaterialsModule } from '../materials/materials.module';
 
-
 @NgModule({
-  declarations: [ 
-    HeaderComponent,
-    FooterComponent,
-  ],
-  imports: [
-    CommonModule,
-    RouterModule,
-    MaterialsModule,
-    ReactiveFormsModule
-  ],
-  exports:[
-    HeaderComponent,
-    FooterComponent,
-  ]
+  declarations: [HeaderComponent, FooterComponent],
+  imports: [CommonModule, RouterModule, MaterialsModule, ReactiveFormsModule],
+  exports: [HeaderComponent, FooterComponent],
 })
-export class SharedModule {
-  
- }
+export class SharedModule {}

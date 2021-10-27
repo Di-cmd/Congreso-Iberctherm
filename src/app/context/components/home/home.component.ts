@@ -84,23 +84,22 @@ export class HomeComponent implements OnInit {
     },
   ];
 
-
   Internacional: any[] = [
     {
       name: 'Aura Conci',
       image: 'aura.jpg',
       descripcion:
         ' Doctora, Magíster y profesional de Ingeniería Civil de la Universidad Católica de Río de Janeiro, docente de ciencias de la computación en la Universidade Federal Fluminense-UFF.',
-        institucion: 'Campus da Praia Vermelha',
-        contacto: 'aconci@ic.uff.br',
+      institucion: 'Campus da Praia Vermelha',
+      contacto: 'aconci@ic.uff.br',
     },
     {
       name: 'Ruben Dorantes Rodríguez',
       image: 'ruben.jpg',
       descripcion:
         'Doctor en Energética y Transferencia de Calor en el Instituto Nacional de Ciencias Aplicadas de Lyon, Especializado en Estudios a Profundidad en Energética en la Universidad de Niza, Licenciado en Física de la Universidad Nacional Autónoma de México.',
-        institucion: 'Universidad Tecnologica de Pereira',
-        contacto: 'Universidad Autónoma Metropolitana ',
+      institucion: 'Universidad Tecnologica de Pereira',
+      contacto: 'Universidad Autónoma Metropolitana ',
     },
     {
       name: 'Joaquim Gabriel Magalhães Mendes',
@@ -110,7 +109,6 @@ export class HomeComponent implements OnInit {
       institucion: 'Universidade do Porto',
       contacto: 'jgabriel@fe.up.pt',
     },
-    
   ];
 
   Tematicas: any[] = [

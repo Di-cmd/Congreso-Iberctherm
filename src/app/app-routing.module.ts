@@ -4,7 +4,7 @@ import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: LayoutComponent,
     children: [
       {
@@ -14,23 +14,20 @@ const routes: Routes = [
       },
       {
         path: 'home',
-        loadChildren:() => import('./context/context.module').then(m => m.ContextModule)
+        loadChildren: () =>
+          import('./context/context.module').then((m) => m.ContextModule),
       },
       {
         path: 'admin',
-        loadChildren:() => import('./admin/admin.module').then(m => m.AdminModule)
-      }
-    ]
-  },
-  {
-    path: '**',
-    redirectTo: '/home',
-    //loadChildren: () => import('./page-not-found/page-not-found.module').then(m => m.PageNotFoundModule)
+        loadChildren: () =>
+          import('./admin/admin.module').then((m) => m.AdminModule),
+      },
+    ],
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
