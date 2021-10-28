@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HomeComponent } from './components/home/home.component';
 import { AutoresComponent } from './components/autores/autores.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { PagosComponent } from './components/pagos/pagos.component';
-1;
 import { IngresoComponent } from './components/ingreso/ingreso.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { PreInscripcionComponent } from './components/pre-inscripcion/pre-inscripcion.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {
