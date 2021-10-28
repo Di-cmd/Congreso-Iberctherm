@@ -4,73 +4,47 @@
       <div class="row">
         <!--Logo-->
         <div class="col-sm">
-          <img src="assets/resource/logo_congreso.png" />
+          <img routerLink="home" src="assets/resource/logo_congreso.png" />
         </div>
 
         <!--La parte central del mat toolbar-->
         <div class="col-sm">
           <div class="row">
             <div class="col-3">
-              <button mat-button [routerLink]="['/']">Inicio</button>
+              <button mat-button routerLink="home">Inicio</button>
             </div>
 
             <div class="col-3">
               <button mat-button [matMenuTriggerFor]="autores">Autores</button>
-              <mat-menu #autores="matMenu">
-                <button
-                  mat-menu-item
-                  [routerLink]="['/home/autores']"
-                  style="background-color: #fefea2"
-                >
+              <mat-menu #autores="matMenu" yPosition="below">
+                <button mat-menu-item routerLink="autores">
                   Para expositores
                 </button>
-                <button mat-menu-item [routerLink]="['/autores']">
+                <button mat-menu-item routerLink="autores">
                   Para evaluadores
                 </button>
-                <button
-                  mat-menu-item
-                  [routerLink]="['/autores']"
-                  style="background-color: #fefea2"
-                >
-                  Pagos
+                <button mat-menu-item routerLink="autores">
+                  {{ "Pagos" | uppercase }}
                 </button>
               </mat-menu>
             </div>
             <div class="col-3">
               <button mat-button [matMenuTriggerFor]="eventos">Evento</button>
               <mat-menu #eventos="matMenu" class="desple">
-                <button
-                  mat-menu-item
-                  [routerLink]="['/evento']"
-                  style="background-color: #fefea2"
-                >
-                  Cronograma
-                </button>
-                <button mat-menu-item [routerLink]="['/evento']">
-                  Expositores
-                </button>
-                <button
-                  mat-menu-item
-                  [routerLink]="['/evento']"
-                  style="background-color: #fefea2"
-                >
-                  Descubriendo la perla
+                <button mat-menu-item routerLink="evento">Cronograma</button>
+                <button mat-menu-item routerLink="evento">Expositores</button>
+                <button mat-menu-item routerLink="evento">
+                  Descubriendo la Perla
                 </button>
               </mat-menu>
             </div>
             <div class="col-3">
               <button mat-button [matMenuTriggerFor]="pagos">Comercial</button>
               <mat-menu #pagos="matMenu">
-                <button
-                  mat-menu-item
-                  [routerLink]="['/pagos']"
-                  style="background-color: #fefea2"
-                >
+                <button mat-menu-item routerLink="pagos">
                   Inscripción para empresas
                 </button>
-                <button mat-menu-item [routerLink]="['/pagos']">
-                  Salon virtual
-                </button>
+                <button mat-menu-item routerLink="pagos">Salon virtual</button>
               </mat-menu>
             </div>
           </div>
