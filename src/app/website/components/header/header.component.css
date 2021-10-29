@@ -1,0 +1,59 @@
+.header {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(255, 174, 0, 1) 11.2%,
+    rgba(255, 0, 0, 1) 100.2%
+  );
+  height: 15%;
+  width: 100%;
+}
+
+.container {
+  height: 15%;
+  width: 100%;
+}
+
+.container img {
+  width: 58%;
+  margin-left: 20%;
+  margin-top: -9%;
+}
+
+.container button {
+  text-decoration: solid;
+  color: black;
+  font-size: 15px;
+  margin-left: 2%;
+}
+
+.contenedor img {
+  height: 200px;
+  width: 100%;
+  margin-top: -8%;
+  margin-left: -6%;
+}
+
+.container .button-session {
+  background-image: radial-gradient(
+    circle 957px at 8.7% 50.5%,
+    rgba(246, 191, 13, 1) 0%,
+    rgba(249, 47, 47, 1) 90%
+  );
+}
+
+.banner img {
+  width: 100%;
+  top: 45px;
+  text-align: center;
+  border-radius: 0 0 0 20%;
+}
+
+.botones {
+  margin-left: 2%;
+}
+
+.boton {
+  position: relative;
+  margin-top: -30%;
+  margin-bottom: 25%;
+}

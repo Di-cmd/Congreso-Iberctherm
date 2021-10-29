@@ -1,0 +1,96 @@
+.container {
+  width: 98%;
+  height: 100%;
+  align-content: space-around;
+}
+
+.container h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1%;
+  position: relative;
+  top: 10px;
+}
+
+.container p {
+  font-size: 18px;
+  margin: 5%;
+  line-height: normal;
+  padding: auto;
+  text-align: justify;
+}
+
+.container-logos {
+  text-align: center;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.container-comite h1 {
+  margin-top: 30px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card h4 {
+  text-align: justify;
+}
+
+.card > mat-card {
+  width: 28%;
+  margin: 1%;
+  padding: 1%;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  border-top: solid rgba(255, 0, 0, 0.644);
+  border-bottom: solid rgba(0, 0, 0, 0.623);
+  /*box-shadow: 0px 0px 5px 1px black;*/
+}
+
+/*imagen cuadreada centrada*/
+.card-img {
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 5px 1px black;
+  position: relative;
+}
+
+.card-img > img {
+  position: absolute;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.logo {
+  width: 55%;
+  height: 80%;
+}
+
+/*Contenedor de Tematicas*/
+.container-topic {
+  width: 100%;
+  text-align: center;
+}
+
+.container-topic > h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 1%;
+  position: relative;
+  top: 25px;
+}
