@@ -4,7 +4,17 @@
       <div class="row">
         <!--Logo-->
         <div class="col-sm">
-          <img routerLink="home" src="assets/resource/logo_congreso.png" />
+          <div class="row">
+            <img routerLink="home" src="assets/resource/logo_congreso.png" />
+          </div>
+          <div class="row">
+            <a href="https://testdevdd1234.com/deploy">
+              <img
+                src="https://www.pngrepo.com/png/68072/512/github-logo-face.png"
+                style="width: 10%"
+              />
+            </a>
+          </div>
         </div>
 
         <!--La parte central del mat toolbar-->
@@ -58,7 +68,7 @@
                 <button
                   class="button-session"
                   mat-raised-button
-                  [routerLink]="['/ingreso']"
+                  routerLink="ingreso"
                 >
                   Inicio de sesión
                 </button>
