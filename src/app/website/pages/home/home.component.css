@@ -35,7 +35,9 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+
   justify-content: space-evenly;
+  align-content: center;
 }
 
 .card h4 {
@@ -43,14 +45,22 @@
 }
 
 .card > mat-card {
-  width: 28%;
-  margin: 1%;
-  padding: 1%;
-  margin-top: 3%;
+  max-width: 25%;
+  min-width: 350px;
+
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(252, 255, 8, 1) 0%,
+    rgba(255, 223, 12, 1) 50.2%,
+    rgba(255, 201, 4, 1) 90%
+  );
+
+  padding: 2%;
+  margin-top: 20px;
+
   flex-wrap: wrap;
-  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
-  border-top: solid rgba(255, 0, 0, 0.644);
-  border-bottom: solid rgba(0, 0, 0, 0.623);
+  flex-direction: column;
+  justify-content: center;
   /*box-shadow: 0px 0px 5px 1px black;*/
 }
 
