@@ -5,12 +5,12 @@
 }
 
 .container h1 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bolder;
   text-align: center;
-  padding: 1%;
-  position: relative;
-  top: 10px;
+  line-height: 150%;
+
+  margin: 1.5%;
 }
 
 .container p {
