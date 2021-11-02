@@ -28,6 +28,10 @@ button {
   font-size: large;
 }
 
+.button:hover mat-menu.autores{
+  display: block;
+}
+
 .banner img {
   width: 100%;
   border-radius: 0 0 0 20%;
