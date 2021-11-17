@@ -4,16 +4,24 @@
   <div class="menu">
     <button mat-button routerLink="home">Inicio</button>
 
-    <div class="dropdown">
-      <button mat-button [matMenuTriggerFor]="autores">Autores &#9660;</button>
-      <mat-menu class="autres" #autores="matMenu">
+    <button
+      mat-button
+      [matMenuTriggerFor]="autores"
+      #menuTrigger="matMenuTrigger"
+      (mouseenter)="menuTrigger.openMenu()"
+    >
+      Autores &#9660;
+    </button>
+
+    <mat-menu class="autres" #autores="matMenu" [overlapTrigger]="false">
+      <div class="dropdown" (mouseleave)="menuTrigger.closeMenu()">
         <button mat-menu-item routerLink="autores">Para expositores</button>
         <button mat-menu-item routerLink="autores">Para evaluadores</button>
         <button mat-menu-item routerLink="autores">
           {{ "Pagos" | uppercase }}
         </button>
-      </mat-menu>
-    </div>
+      </div>
+    </mat-menu>
 
     <button mat-button [matMenuTriggerFor]="eventos">Evento &#9660;</button>
     <mat-menu #eventos="matMenu">
